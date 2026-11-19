@@ -1,0 +1,24 @@
+# Python box and caches
+.venv/
+__pycache__/
+*.pyc
+
+# Built app (1 GB) - share it as a GitHub Release instead
+build/
+dist/
+*.spec
+
+# AI models (~500 MB) - re-downloaded by download_models.py
+models/
+
+# Videos and test outputs (big, and may be private)
+tests/out/
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.wmv
+*.m4v
+*.webm
+*.log
+*.csv
